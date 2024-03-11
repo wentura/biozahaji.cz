@@ -1,7 +1,7 @@
 import Footer from "@/components/footer";
 import Hero from "@/components/hero";
 import { Inter } from "next/font/google";
-import "./globals.css";
+import "../globals.css";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata = {
@@ -13,12 +13,10 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body className={inter.className}>
-        <main className="">
+        <header className="max-w-7xl mx-auto bg-red-200"> logo a menu</header>
+        <main className="flex min-h-96 flex-col items-center justify-between p-24 max-w-7xl mx-auto bg-green-200">
           {children}
         </main>
-        <footer>
-          <Footer />
-        </footer>
       </body>
     </html>
   );
