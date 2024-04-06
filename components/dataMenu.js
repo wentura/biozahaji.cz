@@ -1,5 +1,1 @@
-const struktura = [
-	{
-		title: "O nás", 
-	}
-]
+const struktura = [{ title: "O nás" }];

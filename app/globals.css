@@ -9,4 +9,10 @@
   .text-balance {
     text-wrap: balance;
   }
+  .hero-background {
+    background-image: url("https://res.cloudinary.com/dsqrbvyhy/image/upload/v1712328175/biozahaji/background_pp9y9b.webp");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+  }
 }
