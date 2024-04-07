@@ -8,7 +8,7 @@ import {
 } from "@apollo/experimental-nextjs-app-support/ssr";
 function makeClient() {
   const httpLink = new HttpLink({
-    uri: "http://biozahaji.zbyneksvoboda.cz/graphql",
+    uri: "https://bio.zbyneksvoboda.cz/graphql",
     fetchOptions: { cache: "no-store" },
   });
   return new NextSSRApolloClient({
