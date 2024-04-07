@@ -1,6 +1,7 @@
 import Image from "next/image";
 import Link from "next/link";
 import React from "react";
+import MENU from "./menu-data";
 export default function HeaderNav() {
   return (
     <header className=" flex items-center justify-between px-2 py-2 md:py-4">
@@ -22,24 +23,15 @@ export default function HeaderNav() {
 
       {/* nav - start */}
       <nav className="hidden gap-12 lg:flex">
-        <Link
-          href="#"
-          className="text-lg font-semibold text-gray-600 transition duration-100 hover:  active: "
-        >
-          Features
-        </Link>
-        <Link
-          href="#"
-          className="text-lg font-semibold text-gray-600 transition duration-100 hover:  active: "
-        >
-          Pricing
-        </Link>
-        <Link
-          href="/onas"
-          className="text-lg font-semibold text-gray-600 transition duration-100 hover:  active: "
-        >
-          O nás
-        </Link>
+        {MENU.map((menu) => (
+          <Link
+            key={menu.id}
+            className="text-lg font-semibold text-gray-600 transition duration-100 hover:text-gray-900 hover:underline underline-offset-2 capitalize "
+            href={menu.url}
+          >
+            {menu.title}
+          </Link>
+        ))}
       </nav>
       {/* nav - end */}
 

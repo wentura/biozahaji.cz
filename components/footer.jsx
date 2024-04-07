@@ -1,4 +1,6 @@
+import Link from "next/link";
 import React from "react";
+import MENU from "./menu-data";
 import Social from "./social";
 
 export default function Footer() {
@@ -6,7 +8,6 @@ export default function Footer() {
     <div className="bg-white pt-4 sm:pt-10 lg:pt-12">
       <footer className="mx-auto max-w-screen-2xl px-4 md:px-8">
         <div className="flex flex-col items-center justify-between gap-4 py-6 md:flex-row">
-          {/* nav - start */}
           <nav className="flex flex-wrap justify-center gap-x-4 gap-y-2 md:justify-start md:gap-6 items-center uppercase text-neutral-400">
             <a href="#">
               {" "}
@@ -17,16 +18,17 @@ export default function Footer() {
                 alt="logo"
               />
             </a>
-            <a href="#">Biozahájí</a>
-            <a href="#">Aktuální nabídka</a>
-            <a href="#">Kemp</a>
-            <a href="#">Pronájem prostor</a>
-            <a href="">O nás</a>
-            <a href="#">Kontakt</a>
+            {MENU.map((menu) => (
+              <Link
+                key={menu.id}
+                className="text-sm font-semibold text-gray-400 transition duration-100 hover:text-gray-500 capitalize "
+                href={menu.url}
+              >
+                {menu.title}
+              </Link>
+            ))}
           </nav>
-          {/* nav - end */}
-          {/* social - start */}
-          <Social /> {/* social - end */}
+          <Social />
         </div>
 
         <div className="py-8 text-center text-sm text-gray-400">
