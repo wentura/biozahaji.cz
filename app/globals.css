@@ -15,4 +15,18 @@
     background-position: center center;
     background-size: cover;
   }
+  .odkazText {
+    @apply underline underline-offset-2 px-2 py-1 bg-bio-50 bg-opacity-30 rounded-md;
+  }
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    @apply text-gray-800;
+  }
+  p {
+    @apply text-gray-500 text-lg;
+  }
 }

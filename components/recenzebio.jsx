@@ -29,11 +29,11 @@ export default function Recenzebio() {
               key={recenze.id}
             >
               <div>
-                <span className="block text-sm font-bold md:text-base capitalize">
+                <span className="block text-lg font-bold md:text-base capitalize">
                   {recenze.kdo}
                 </span>
               </div>
-              <p className="text-gray-600">{recenze.co}</p>
+              <p className="">{recenze.co}</p>
               {/* <div className="text-gray-400  self-end relative bottom-0">
                 {recenze.kde}
               </div> */}

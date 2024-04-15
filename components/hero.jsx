@@ -3,7 +3,16 @@ import React from "react";
 import CarouselBanner from "./carouselBanner.jsx";
 import HeaderNav from "./header-nav";
 
-const images = ["1.png", "2.png", "3.png"];
+const images = [
+  "https://res.cloudinary.com/dsqrbvyhy/image/upload/v1713182458/biozahaji/carousel/41572_DSC-0793.jpeg_lmgjwt.webp",
+  "https://res.cloudinary.com/dsqrbvyhy/image/upload/v1713182463/biozahaji/carousel/34206_DSC-0612.jpeg_uugs0u.webp",
+  "https://res.cloudinary.com/dsqrbvyhy/image/upload/v1713182460/biozahaji/carousel/34214_DSC-0620.jpeg_hokeyu.webp",
+  "https://res.cloudinary.com/dsqrbvyhy/image/upload/v1713182455/biozahaji/carousel/34217_DSC-0623.jpeg_dj54vh.webp",
+  "https://res.cloudinary.com/dsqrbvyhy/image/upload/v1713182453/biozahaji/carousel/34215_DSC-0621.jpeg_taghqe.webp",
+  "https://res.cloudinary.com/dsqrbvyhy/image/upload/v1713182451/biozahaji/carousel/42965_1660381316288_jxvu6w.webp",
+  "https://res.cloudinary.com/dsqrbvyhy/image/upload/v1713182450/biozahaji/carousel/34445_DSC-0661.jpeg_igut7m.webp",
+  "https://res.cloudinary.com/dsqrbvyhy/image/upload/v1713182448/biozahaji/carousel/34196_DSC-0602.jpeg_gz6nnk.webp",
+];
 
 export default function Hero() {
   return (
