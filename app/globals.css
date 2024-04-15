@@ -29,4 +29,7 @@
   p {
     @apply text-gray-500 text-lg;
   }
+  button.slick-next {
+    right: 10px !important;
+  }
 }
