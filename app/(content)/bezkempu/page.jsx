@@ -1,6 +1,6 @@
 import Nabidka from "@/components/nabidka";
 import React from "react";
-export default function aktualniNabidka() {
+export default function bezKempu() {
   return (
     <div className="bg-white py-6 sm:py-8 lg:py-12">
       <div className="mx-auto max-w-screen-xl px-4 md:px-8">
@@ -28,10 +28,8 @@ export default function aktualniNabidka() {
 
           <div>
             <h2 className="mb-12 text-4xl font-bold text-center sm:text-5xl">
-              Aktuální nabídka
+              Bez Kempu
             </h2>
-
-            <Nabidka />
           </div>
         </div>
       </div>
