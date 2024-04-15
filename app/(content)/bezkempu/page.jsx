@@ -41,7 +41,7 @@ export default function bezKempu() {
                 bezkempu.cz
               </a>{" "}
               tak i pro náhodné kolemdoucí (nejlépe po{" "}
-              <Link href="/onas" className="odkazText">
+              <Link href="/kontakt" className="odkazText">
                 telefonnícké domluvě
               </Link>
               ).

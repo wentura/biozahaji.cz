@@ -18,7 +18,7 @@ const GET_NEWS = gql`
 export default function News() {
   const { loading, error, data, refetch } = useQuery(GET_NEWS);
   return (
-    <div className="container flex flex-col justify-center mx-auto">
+    <div className="container flex flex-col justify-center mx-auto px-2">
       {error && <p className="pt-12">Error: {error.message}</p>}
       {loading && <div className="pt-12">načítám novinky z Biozahájí</div>}
 
@@ -35,19 +35,16 @@ export default function News() {
       </div>
 
       <div
-        className={`transition ease-in-out duration-1000 divide-y divide-neutral-200 px-8 ${
+        className={`transition ease-in-out duration-1000 divide-y divide-neutral-200  ${
           !data && "opacity-0"
         } ${data && "opacity-100"}`}
       >
         {data &&
           data.posts.nodes.map((post) => (
-            <div
-              className="py-6 space-y-2 md:grid md:grid-cols-12 md:gap-8 md:space-y-0"
-              key={post.id}
-            >
-              <h3 className="font-semibold md:col-span-2">{post.title}</h3>
+            <div className="py-2 flex flex-col" key={post.id}>
+              <h3 className="font-semibold text-xl">{post.title}</h3>
               <span
-                className="md:pl-0 md:col-span-10"
+                className="text-xs"
                 dangerouslySetInnerHTML={{ __html: post.content }}
               ></span>
             </div>

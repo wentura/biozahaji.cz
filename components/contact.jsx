@@ -30,7 +30,7 @@ export default function Contact() {
                   za památnou lípou
                 </span>
               </p>
-              <p className="flex items-center">
+              <p className="flex items-center pt-4">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   viewBox="0 0 20 20"
@@ -54,13 +54,11 @@ export default function Contact() {
                   277 38
                 </span>
               </p>
-              <p>
-                <span className="pt-12">
+              <p className="mt-4">
+                <span>
                   IČO: 07934041
                   <br />
                   DIČ: CZ07934041
-                  <br />
-                  277 38
                 </span>
               </p>
             </div>

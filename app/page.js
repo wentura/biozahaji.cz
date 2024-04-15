@@ -7,8 +7,8 @@ export default function Home() {
     <div>
       <Hero />
       <News />
-      <div className="container flex flex-col justify-center px-4 py-8 mx-auto md:p-8">
-        <h2 className="mb-12 text-4xl font-bold text-center sm:text-5xl">
+      <div className="container flex flex-col justify-center px-2 py-16 mx-auto">
+        <h2 className="mb-4 text-4xl font-bold text-center sm:text-5xl">
           Aktuální nabídka
         </h2>
 
