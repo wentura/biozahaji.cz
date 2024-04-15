@@ -35,7 +35,7 @@ export default function News() {
       </div>
 
       <div
-        className={`transition ease-in-out duration-1000 divide-y divide-neutral-200  ${
+        className={`transition duration-3000 divide-y divide-neutral-200  ${
           !data && "opacity-0"
         } ${data && "opacity-100"}`}
       >
