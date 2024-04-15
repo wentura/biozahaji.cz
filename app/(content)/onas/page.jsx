@@ -8,7 +8,7 @@ export default function Onas() {
           <div>
             <div className="h-64 overflow-hidden rounded-lg bg-gray-100 shadow-lg md:h-auto">
               <img
-                src="https://images.unsplash.com/photo-1610465299996-30f240ac2b1c?auto=format&q=75&fit=crop&w=600&h=750"
+                src="https://res.cloudinary.com/dsqrbvyhy/image/upload/v1713184193/biozahaji/34580_IMG-20220627-WA0004_sctoq4.webp"
                 loading="lazy"
                 alt="Photo by Martin Sanchez"
                 className="h-full w-full object-cover object-center"
@@ -20,7 +20,7 @@ export default function Onas() {
             <h1 className="mb-4 text-center text-2xl font-bold text-gray-800 sm:text-3xl md:mb-6 md:text-left">
               O nás a naší BIO farmě
             </h1>
-            <p className="mb-6 text-gray-500 sm:text-lg md:mb-8">
+            <p className="mb-6 sm:text-lg md:mb-8">
               Jsme malá BIO farma.
               <br />
               Zkušenosti s pěstováním plodin máme letité (z klasického
@@ -35,8 +35,10 @@ export default function Onas() {
               poctivé zemědělství bez chemie, velkých moderních strojů a s
               rozumem, je tvrdá a nekončící dřina.
               <br />
-              Ale máme to rádi, je to náš životní styl a poslání.
             </p>
+            <h2 className="text-xl text-center font-bold">
+              Máme to rádi, je to náš životní styl a poslání.
+            </h2>
 
             {/* <h2 className="mb-2 text-center text-xl font-semibold text-gray-800 sm:text-2xl md:mb-4 md:text-left">
               About us
