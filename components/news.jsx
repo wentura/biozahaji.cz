@@ -20,7 +20,7 @@ export default function News() {
   return (
     <div className="container flex flex-col justify-center mx-auto px-2">
       {error && <p className="pt-12">Error: {error.message}</p>}
-      {loading && <div className="pt-12">načítám novinky z Biozahájí</div>}
+      {loading && <div className="pt-12">Načítají se novinky z Biozahájí</div>}
 
       <div
         className={`transition ease-in-out duration-1000 ${

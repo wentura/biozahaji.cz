@@ -47,7 +47,7 @@ export default function bezKempu() {
               ).
             </p>
             <p className="py-2">
-              U nás budete mít tu klid, bude rušit pouze{" "}
+              U nás budete mít klid, bude rušit pouze{" "}
               <strong>zpěv ptáků a kvákání žab</strong> z naší blízké nádrže na
               závlahu ovocných stromů a zeleniny.
             </p>
