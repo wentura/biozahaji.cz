@@ -12,7 +12,7 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body className="text-lg">
+      <body className="text-lg max-w-screen-xl mx-auto">
         <main className="">
           <ApolloWrapper>{children}</ApolloWrapper>
         </main>
