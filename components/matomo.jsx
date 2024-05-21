@@ -6,8 +6,8 @@ export default function Matomo() {
       <img
         referrerPolicy="no-referrer-when-downgrade"
         src="http://matomo.zbyneksvoboda.cz/matomo.php?idsite=14&amp;rec=1"
-        className="border-0"
-        alt="matomo analytics"
+        className="border-0 invisible"
+        alt=""
       />
     </div>
   );
