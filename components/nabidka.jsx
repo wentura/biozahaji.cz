@@ -24,7 +24,7 @@ export default function Nabidka() {
     <div className="flex flex-col mx-auto w-full">
       {error && <p className="pt-12">Error: {error.message}</p>}
       {loading && (
-        <p className="pt-12">Načítá se aktuální nabídka z Biozahájí...</p>
+        <div className="pt-12">Načítá se aktuální nabídka z Biozahájí...</div>
       )}
 
       <div

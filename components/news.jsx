@@ -18,9 +18,11 @@ const GET_NEWS = gql`
 export default function News() {
   const { loading, error, data, refetch } = useQuery(GET_NEWS);
   return (
-    <div className="container flex flex-col justify-center mx-auto px-2">
+    <div className="container flex flex-col justify-center px-2 py-16 mx-auto">
       {error && <p className="pt-12">Error: {error.message}</p>}
-      {loading && <div className="pt-12">Načítají se novinky z Biozahájí</div>}
+      {loading && (
+        <div className="pt-12 opacity-85">Načítají se novinky z Biozahájí</div>
+      )}
 
       <div
         className={`transition ease-in-out duration-1000 ${

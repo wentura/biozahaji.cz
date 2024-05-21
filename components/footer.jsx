@@ -1,5 +1,6 @@
 import Link from "next/link";
 import React from "react";
+import Matomo from "./matomo";
 import MENU from "./menu-data";
 import Social from "./social";
 
@@ -42,6 +43,7 @@ export default function Footer() {
           </a>
         </div>
       </footer>
+      <Matomo />
     </div>
   );
 }
