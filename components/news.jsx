@@ -46,7 +46,7 @@ export default function News() {
             <div className="py-2 flex flex-col" key={post.id}>
               <h3 className="font-semibold text-xl">{post.title}</h3>
               <span
-                className="text-xs"
+                className="text-xs novinka"
                 dangerouslySetInnerHTML={{ __html: post.content }}
               ></span>
             </div>

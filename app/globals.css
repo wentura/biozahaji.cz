@@ -32,4 +32,7 @@
   button.slick-next {
     right: 10px !important;
   }
+  .novinka a {
+    @apply underline underline-offset-4 decoration-gray-400 decoration-2;
+  }
 }
