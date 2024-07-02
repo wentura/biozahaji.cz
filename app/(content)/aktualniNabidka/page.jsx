@@ -1,14 +1,14 @@
 import Nabidka from "@/components/nabidka";
-import React from "react";
+import React, { Suspense } from "react";
 export default function aktualniNabidka() {
   return (
-    <div className="bg-white py-6 sm:py-8 lg:py-12">
-      <div className="mx-auto max-w-screen-2xl px-4 md:px-8">
+    <div className="py-6 bg-white sm:py-8 lg:py-12">
+      <div className="px-4 mx-auto max-w-screen-2xl md:px-8">
         <div className="grid gap-8 md:grid-cols-2 lg:gap-12">
           <div>
-            <div className="h-64 overflow-hidden rounded-lg bg-gray-100 shadow-lg md:h-auto">
+            <div className="h-64 overflow-hidden bg-gray-100 rounded-lg shadow-lg md:h-auto">
               <video
-                className="h-full w-full object-cover object-center"
+                className="object-cover object-center w-full h-full"
                 poster="https://res.cloudinary.com/dsqrbvyhy/image/upload/v1713172380/biozahaji/video/cmelak-poster_jib2vb.webp"
                 loop
                 muted
@@ -30,8 +30,9 @@ export default function aktualniNabidka() {
             <h2 className="mb-12 text-4xl font-bold text-center sm:text-5xl">
               Aktuální nabídka
             </h2>
-
-            <Nabidka />
+            <Suspense>
+              <Nabidka />
+            </Suspense>
           </div>
         </div>
       </div>
