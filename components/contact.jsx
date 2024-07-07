@@ -7,7 +7,7 @@ export default function Contact() {
         <div className="py-6 md:py-0 md:px-6">
           <h1 className="text-4xl font-bold">Biozahájí s.r.o.</h1>
           <p className="pt-2 pb-4">vaše naše BIO farma</p>
-          <div className="space-y-4 mt-8">
+          <div className="mt-8 space-y-4">
             <div>
               <p className="flex items-center">
                 <svg
@@ -96,9 +96,9 @@ export default function Contact() {
                 </svg>
                 <a
                   className="underline underline-offset-2"
-                  href="mailto:lenka@biozahaji.cz"
+                  href="mailto:lenkahavlova3@seznam.cz"
                 >
-                  lenka@biozahaji.cz
+                  lenkahavlova3@seznam.cz
                 </a>
               </div>
             </div>
@@ -134,9 +134,9 @@ export default function Contact() {
                 </svg>
                 <a
                   className="underline underline-offset-2"
-                  href="mailto:premysl@biozahaji.cz"
+                  href="mailto:premysl.rimkevic@post.cz"
                 >
-                  premysl@biozahaji.cz
+                  premysl.rimkevic@post.cz
                 </a>
               </div>
             </div>
@@ -144,11 +144,11 @@ export default function Contact() {
         </div>
       </div>
 
-      <div className="relative max-w-screen-2xl h-96 mx-auto mt-24">
+      <div className="relative mx-auto mt-24 max-w-screen-2xl h-96">
         <iframe
           className="absolute top-0 left-0 w-full h-full rounded-xl"
           src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6767.467776318731!2d14.66788097404934!3d50.37372014962513!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x470be3c5d77af58d%3A0x915afba1e39da846!2zQmlvemFow6Fqw60gLSBwcm92b3pvdm5hIFphaMOhasOt!5e1!3m2!1scs!2scz!4v1713180770843!5m2!1scs!2scz"
-          allowfullscreen=""
+          allowFullScreen=""
           loading="lazy"
           aria-hidden="false"
           tabIndex="0"
