@@ -6,6 +6,8 @@ import "./globals.css";
 const inter = Inter({ subsets: ["latin"] });
 export const metadata = {
   title: "Biozahájí - BIO farma",
+  keywords:
+    "Biozahájí, bio farma, biozahaji, bio potraviny, zahájí, bio mělník, bio zelenina, bio ovoce, kiwi, bio kiwi, ovoce, zelenina, Lenka bio, Přemysl",
   description:
     "Rodinná bio farma. Pěstování se věnujeme celý život a BIO je náš životní směr. Vše naprosto čerstvé, v prvotřídní bio kvalitě.",
 };
