@@ -33,7 +33,7 @@ export default function Footer() {
         </div>
 
         <div className="py-8 text-center text-sm text-gray-400">
-          <span className="uppercase">Biozaháji</span> s.r.o. © 2024 -
+          <span className="uppercase">Biozaháji</span> s.r.o. © 2025 -
           <a
             className=" hover:bg-bio-50 hover:bg-opacity-40 p-1 rounded-sm hover:text-bio-800"
             href="https://www.zbyneksvoboda.cz"
